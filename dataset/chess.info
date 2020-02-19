@@ -1,0 +1,8 @@
+White_King_file discrete
+White_King_rank discrete
+White_Rook_file discrete
+White_Rook_rank discrete
+Black_King_file discrete
+Black_King_rank discrete
+optimal_depth-of-win_for_White discrete
+LABEL_POS -1

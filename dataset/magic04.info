@@ -1,0 +1,12 @@
+fLength continuous
+fWidth continuous
+fSize continuous
+fConc continuous
+fConc1 continuous
+fAsym continuous
+fM3Long continuous
+fM3Trans continuous
+fAlpha continuous
+fDist continuous
+class discrete
+LABEL_POS -1

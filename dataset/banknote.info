@@ -1,0 +1,6 @@
+variance_of_Wavelet_Transformed_image continuous
+skewness_of_Wavelet_Transformed_image continuous
+curtosis_of_Wavelet_Transformed_image continuous
+entropy_of_image continuous
+class discrete
+LABEL_POS -1

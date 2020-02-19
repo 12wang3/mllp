@@ -1,0 +1,16 @@
+age continuous
+workclass discrete
+fnlwgt continuous
+education discrete
+education-num continuous
+marital-status discrete
+occupation discrete
+relationship discrete
+race discrete
+sex discrete
+capital-gain continuous
+capital-loss continuous
+hours-per-week continuous
+native-country discrete
+class discrete
+LABEL_POS -1

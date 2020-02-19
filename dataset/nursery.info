@@ -1,0 +1,10 @@
+parents discrete
+has_nurs discrete
+form discrete
+children discrete
+housing discrete
+finance discrete
+social discrete
+health discrete
+class discrete
+LABEL_POS -1
