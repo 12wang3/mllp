@@ -18,12 +18,12 @@ We have already put 12 UCI data sets in the `dataset` folder. The description of
 For more information about these data sets, you can click the corresponding links.
 
 ## Data set format
-Each data set corresponds to two files, `*.csv` and `*.info`. The `*.csv` file stores the data for each instance. The `*.info` file stores the information for each feature.
+Each data set corresponds to two files, `*.data` and `*.info`. The `*.data` file stores the data for each instance. The `*.info` file stores the information for each feature.
 
-#### *.csv
-One row in `*.csv` corresponds to one instance and one column corresponds to one feature (including the class label).
+#### *.data
+One row in `*.data` corresponds to one instance and one column corresponds to one feature (including the class label).
 
-For example, the `adult.csv`:
+For example, the `adult.data`:
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -34,7 +34,7 @@ For example, the `adult.csv`:
 | ......|
 
 #### *.info
-One row (except the last row) in `*.info` corresponds to one feature (including the class label). The order of these features must be the same as the columns in `*.csv`. The first column is the feature name, and the second column indicates the characteristics of the feature, i.e., continuous or discrete. The last row does not correspond to one feature. It specifies the position of the class label column.
+One row (except the last row) in `*.info` corresponds to one feature (including the class label). The order of these features must be the same as the columns in `*.data`. The first column is the feature name, and the second column indicates the characteristics of the feature, i.e., continuous or discrete. The last row does not correspond to one feature. It specifies the position of the class label column.
 
 For example, the `adult.info`:
 
@@ -52,4 +52,4 @@ For example, the `adult.info`:
 |LABEL_POS | -1 |
 
 ## Add a new data set
-You can run the demo on your own data sets by putting corresponding `*.csv` and `*.info` file into the `dataset` folder. The formats of these two files are described above.
+You can run the demo on your own data sets by putting corresponding `*.data` and `*.info` file into the `dataset` folder. The formats of these two files are described above.
